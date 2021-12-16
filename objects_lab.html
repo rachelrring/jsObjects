@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Objects</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <label for="fname">First Name: </label>
+    <input id="name" type="text" name="fname">
+    <br />
+    <label for="lname">Last Name: </label>
+    <input id="surname" type="text" name="lname">
+    <br />
+    <label for="yr">Year: </label>
+    <input id="year" type="text" name="yr">
+    <br />
+    <label for="course">Choose a Course:</label>
+    <select name="course" id="course">
+        <option value="Software Developement">Software Development</option>
+        <option value="IT Management">IT Management</option>
+        <option value="Computing with Language">Computing with Language</option>
+        <option value="Computing with DA">Computing with DA</option>
+    </select>
+    <br />
+    <button id="savebtn" type="button" onclick="saveMyData();">Save Data</button>
+    <button id="creatMsg" type="button" onclick="writeP();">Create Message</button>
+    <br />
+    <p id="myp">
+    </p>
+</body>
+</html>
